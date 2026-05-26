@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/aura-tracker/sw.js', { scope: '/aura-tracker/' })})}
